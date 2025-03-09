@@ -35,9 +35,9 @@ Browse to [localhost:3000](http://localhost:3000)
 https://developers.cloudflare.com/pages/framework-guides/nextjs/ssr/get-started/
 cd blog
 npm run deploy
-
-▲  WARNING: You should not upload the `.next` directory.
+ 
 Output directory= .vercel/output/static
+
 
 ## See also
 https://nextjsstarter.com/blog/next-starter-code-examples-for-immediate-use/
