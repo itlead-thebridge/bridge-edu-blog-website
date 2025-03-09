@@ -11,7 +11,6 @@ cd bridge-edu-blog-website
 ## Clone CloudFlare Template
 npm create cloudflare@latest -- blog --framework=next
 
- 
 -- Executive.director@thebridge.io's Account
 
 cd blog
@@ -32,10 +31,13 @@ npm run build
 npm run start
 Browse to [localhost:3000](http://localhost:3000)
 
-## CloudFlare
+## CloudFlare 
 https://developers.cloudflare.com/pages/framework-guides/nextjs/ssr/get-started/
-npm install --save-dev @cloudflare/next-on-pages
-npm install --save-dev eslint-plugin-next-on-pages
+cd blog
+npm run deploy
+
+▲  WARNING: You should not upload the `.next` directory.
+Output directory= .vercel/output/static
 
 ## See also
 https://nextjsstarter.com/blog/next-starter-code-examples-for-immediate-use/
