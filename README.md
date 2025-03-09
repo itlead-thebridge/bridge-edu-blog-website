@@ -33,6 +33,7 @@ npm run start
 Browse to [localhost:3000](http://localhost:3000)
 
 ## CloudFlare
+Build output directory= .vercel/output/static
 https://developers.cloudflare.com/pages/framework-guides/nextjs/ssr/get-started/
 npm install --save-dev @cloudflare/next-on-pages
 npm install --save-dev eslint-plugin-next-on-pages
