@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LOGO_ORANGE_BRIDGE_URL } from "@/conf/logoConsts";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +38,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+
+        <SiteHeader title="Bridge Education Center" />
         {children}
+        <SiteFooter message="Embracing opportunity to help neighbors.
+        Blessed to serve alongside caring volunteers."/>
       </body>
     </html>
   );

@@ -1,4 +1,6 @@
 // import Link from "next/link";
+import { ICON_FILE_16PX, ICON_GLOBE_16PX } from "@/conf/iconConsts";
+import { LOGO_ORANGE_BRIDGE_URL } from "@/conf/logoConsts";
 import Image from "next/image";
 
 type SiteHeaderProps={
@@ -12,7 +14,7 @@ export default function SiteHeader(props:SiteHeaderProps) {
   return (
       <div className="row-start-1 flex gap-12 flex-wrap items-center">
       <Image 
-          src="/bridge_logo_on_orange.png"
+          src={LOGO_ORANGE_BRIDGE_URL}
           alt="Bridge logomark"
           width={201}
           height={97}
@@ -27,7 +29,7 @@ export default function SiteHeader(props:SiteHeaderProps) {
       >
       <Image
           aria-hidden
-          src="/icons/file.svg"
+          src={ICON_FILE_16PX}
           alt="File icon"
           width={16}
           height={16}
@@ -42,7 +44,7 @@ export default function SiteHeader(props:SiteHeaderProps) {
       >
         <Image
           aria-hidden
-          src="/icons/globe.svg"
+          src={ICON_GLOBE_16PX}
           alt="Globe icon"
           width={16}
           height={16}

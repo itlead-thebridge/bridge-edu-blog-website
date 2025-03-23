@@ -1,4 +1,4 @@
-import SiteHeader from "./SiteHeader";
+// import SiteHeader from "./SiteHeader";
 
 type Note404PageNotFoundProperties={ 
   message:string
@@ -41,7 +41,6 @@ const styles = {
 export default function Note404PageNotFound(props:Note404PageNotFoundProperties) {
   return (
     <>
-      <SiteHeader title="Bridge Education Center" />
       <div style={styles.error}>        
         <div>
           <style

@@ -1,5 +1,5 @@
 
-import LOGO_TUTOR_TO_EXCELLENCE_URL from "@/conf/logoConsts";
+import { LOGO_TUTOR_TO_EXCELLENCE_URL } from "@/conf/logoConsts";
 import Image from "next/image"; 
 
 type NoteSiteMaintenanceProperties={ 
