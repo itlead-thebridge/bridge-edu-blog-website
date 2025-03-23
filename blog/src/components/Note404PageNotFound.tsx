@@ -1,6 +1,4 @@
-
-import LOGO_ORANGE_BRIDGE_URL from "@/conf/logoConsts";
-import Image from "next/image"; 
+import SiteHeader from "./SiteHeader";
 
 type Note404PageNotFoundProperties={ 
   message:string
@@ -43,14 +41,7 @@ const styles = {
 export default function Note404PageNotFound(props:Note404PageNotFoundProperties) {
   return (
     <>
-      <Image
-          className="bg-white"
-          src={LOGO_ORANGE_BRIDGE_URL}
-          alt="Bridge"
-          width="201"
-          height="97"
-          priority
-        />
+      <SiteHeader title="Bridge Education Center" />
       <div style={styles.error}>        
         <div>
           <style
