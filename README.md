@@ -38,15 +38,26 @@ npm run build
 npm run start
 Browse to [localhost:3000](http://localhost:3000)
 
-## CloudFlare 
+## CloudFlare Preview
 https://developers.cloudflare.com/pages/framework-guides/nextjs/ssr/get-started/
 cd blog
+git checkout any-non-production-branch
 npm run build
 npm run deploy
--- This will create a new Preview-type deployment under Pages section of the https://dash.cloudflare.com/ menu.
+-- This will: 
+-- * Popup web browser to authenticate Wrangler deployment to CloudFlare account
+-- * create a new Preview-type deployment under Pages section of the https://dash.cloudflare.com/ menu.
  
 Output directory= .vercel/output/static
 
+
+## CloudFlare Production
+cd blog
+git checkout release/prod_cloudflare
+npm run build
+npm run deploy
+-- This will overwrite existing Production deployment under Pages section of the https://dash.cloudflare.com/ menu.
+ 
 
 ## See also
 https://nextjsstarter.com/blog/next-starter-code-examples-for-immediate-use/
