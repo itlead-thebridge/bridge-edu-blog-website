@@ -19,6 +19,11 @@ npm install next@latest react@latest react-dom@latest
 npx next telemetry disable
 vercel telemetry disable
 
+-- Other libraries used:
+npm install date-fns
+npm install remark
+npm install remark-html
+
 
 ## Unit Testing
 cd blog

@@ -27,7 +27,7 @@ export default function SiteHeader(props:SiteHeaderProps) {
       >
       <Image
           aria-hidden
-          src="/file.svg"
+          src="/icons/file.svg"
           alt="File icon"
           width={16}
           height={16}
@@ -42,7 +42,7 @@ export default function SiteHeader(props:SiteHeaderProps) {
       >
         <Image
           aria-hidden
-          src="/globe.svg"
+          src="/icons/globe.svg"
           alt="Globe icon"
           width={16}
           height={16}

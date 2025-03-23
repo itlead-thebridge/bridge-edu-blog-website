@@ -1,0 +1,14 @@
+{
+  "name": "Bridge Education Center",
+  "short_name": "The Bridge",
+  "icons": [
+    {
+      "src": "/favicons/favicon.png",
+      "sizes": "100x33",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}
