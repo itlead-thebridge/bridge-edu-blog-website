@@ -1,0 +1,12 @@
+# CODEOWNERS file is a shortcut to identifying required approvers for Pull Requests
+# https://github.blog/news-insights/product-news/introducing-code-owners/
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+# Default owner for everything in the repo.
+*       it.lead@thebridge.io pbelov@jumpmind.com
+
+# Order is important. The last matching pattern has the most precedence.
+# So if a pull request only touches javascript files, only these owners
+# will be requested to review.
+# *.ts    it.lead@thebridge.io
