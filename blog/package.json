@@ -13,6 +13,7 @@
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
 	},
 	"dependencies": {
+		"classnames": "^2.5.1",
 		"date-fns": "^4.1.0",
 		"next": "^15.2.2",
 		"react": "^19.0.0",
