@@ -1,24 +1,23 @@
-// import Link from "next/link";
+import Link from "next/link";
+import Image from "next/image";
+
 import { ICON_FILE_16PX, ICON_GLOBE_16PX } from "@/conf/iconConsts";
 import { LOGO_ORANGE_BRIDGE_URL } from "@/conf/logoConsts";
-import Image from "next/image";
 
 type SiteHeaderProps={
   title:string;
 };
 
-export default function SiteHeader(props:SiteHeaderProps) {
-  // OLD:  <div className="flex gap-4 items-center flex-col sm:flex-row">
-  // <div className="tracking-tight md:tracking-tighter leading-tight mb-20 mt-8 flex">  
-  // <div className="row-start-1 flex gap-12 flex-wrap items-center">
+export default function SiteHeader(props:SiteHeaderProps) { 
   return (
-      <div className="row-start-1 flex gap-12 flex-wrap items-center">
+      <div className="row-start-1 flex gap-12 flex-wrap items-center bg-neutral-50 border-b border-neutral-200 dark:bg-slate-800">
+      <Link href="/">
       <Image 
           src={LOGO_ORANGE_BRIDGE_URL}
           alt="Bridge logomark"
           width={201}
           height={97}
-        /> 
+        /></Link>
       <h2 className="text-2xl md:text-5xl">
               {props.title}</h2>
       <a

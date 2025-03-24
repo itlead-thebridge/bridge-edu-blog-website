@@ -9,7 +9,7 @@ type NoteSiteMaintenanceProperties={
 export default function NoteSiteMaintenance(props:NoteSiteMaintenanceProperties) {
   return (
     <>
-       <p className="text-3xl">{props.message}</p>
+       <p className="text-2xl">{props.message}</p>
         <Image
           className="bg-white"
           src={LOGO_TUTOR_TO_EXCELLENCE_URL}

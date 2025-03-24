@@ -11,7 +11,7 @@ export default function SiteFooter(props:SiteFooterProperties) {
 
     <footer className="bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800">
       <DivContainer>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
+        <div className="py-8 flex flex-col lg:flex-row items-center">
           <p className="font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
              {props.message} 
           </p>
